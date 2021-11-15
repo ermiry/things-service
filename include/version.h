@@ -3,8 +3,8 @@
 
 #define SERVICE_VERSION				"0.1"
 #define SERVICE_VERSION_NAME		"Version 0.1"
-#define SERVICE_VERSION_DATE		"28/10/2021"
-#define SERVICE_VERSION_TIME		"23:46 CST"
+#define SERVICE_VERSION_DATE		"14/11/2021"
+#define SERVICE_VERSION_TIME		"23:30 CST"
 #define SERVICE_VERSION_AUTHOR		"Erick Salas"
 
 // print full service version information
