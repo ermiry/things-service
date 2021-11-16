@@ -1,5 +1,5 @@
-#ifndef _ROUTES_SERVICE_H_
-#define _ROUTES_SERVICE_H_
+#ifndef _THINGS_ROUTES_SERVICE_H_
+#define _THINGS_ROUTES_SERVICE_H_
 
 struct _HttpReceive;
 struct _HttpRequest;
@@ -12,6 +12,12 @@ extern void things_main_handler (
 
 // GET /api/things/version
 extern void things_version_handler (
+	const struct _HttpReceive *http_receive,
+	const struct _HttpRequest *request
+);
+
+// GET /api/things/auth
+extern void things_auth_handler (
 	const struct _HttpReceive *http_receive,
 	const struct _HttpRequest *request
 );
